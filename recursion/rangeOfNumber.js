@@ -8,4 +8,4 @@ const rangeOfNumbers = (sn, en)=>{
     numbers.push(en);
     return numbers;
 }
-console.log(rangeOfNumbers(1, 8))
+console.log(rangeOfNumbers(1, 8));
