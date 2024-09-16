@@ -86,7 +86,7 @@ Click the "Fork" button on the top-right corner of this repository page to creat
 
 ### Clone Your Forked Repository
 
-git clone https://github.com/your-username/DSA-with-JavaScript.git
+git clone https://github.com/adityadhiman-in/DSA_with_JavaScript.git
 
 ### Create a New Branch
 
