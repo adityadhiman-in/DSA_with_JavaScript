@@ -15,14 +15,21 @@ class Queue{
             this.queue.shift();
         }
     }
-    peek(){
-        return this.queue[this.size() - 1];
+    front(){
+        return this.queue[0];
     }
     isEmpty(){
         return this.size() === 0;
     }
     size(){
         return this.queue.length;
+    }
+    printQueue(){
+        let queueString = "";
+       for(let i = 0; i < this.size(); i++){
+          queueString += this.queue[i] + " ";
+       }
+       console.log(queueString);
     }
 }
 
@@ -31,5 +38,6 @@ const myQueue = new Queue();
 myQueue.enqueue("hello");
 myQueue.enqueue("world");
 
-console.log(myQueue.peek());
+console.log(myQueue.front());
 console.log(myQueue.size());
+myQueue.printQueue();
