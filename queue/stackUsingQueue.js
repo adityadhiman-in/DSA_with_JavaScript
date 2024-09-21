@@ -18,7 +18,7 @@ Stack.prototype.pop = function (){
     return this.queue1.shift();
 };
 Stack.prototype.top = function (){
-    return this.queue1[this.queue1.length - 1];
+    return this.queue1[0];
 }
 Stack.prototype.isEmpty = function (){
     return this.queue1.length === 0;
