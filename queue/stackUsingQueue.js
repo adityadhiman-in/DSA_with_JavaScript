@@ -15,7 +15,7 @@ Stack.prototype.push = function (element){
     }
 };
 Stack.prototype.pop = function (){
-    return this.queue1.pop();
+    return this.queue1.shift();
 };
 Stack.prototype.top = function (){
     return this.queue1[this.queue1.length - 1];
