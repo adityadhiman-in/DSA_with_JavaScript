@@ -5,4 +5,4 @@ const truncate = (str)=>{
     const validStr = str.length > 10 ? str + " ..." : str;
     return validStr;
 }
-console.log(truncate("hello there"))
+console.log(truncate("hello there")) 
